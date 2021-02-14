@@ -7,18 +7,18 @@ def welcome_assignment_answers(question):
     #    #Another way to implement is using a "case" statements similar to C.
     answer = ""
     if question == "Are encoding and encryption the same? - Yes/No":
-        answer = "No"
+        answer = "No 1"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "No"
+        answer = "No 2"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
-        answer = "No"
+        answer = "No 3"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "Yes"
     elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use " + \
             "MD5 hash generator and use the answer in your code":
         answer = "42b76fe51778764973077a5a94056724"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-        answer = "No"
+        answer = "No 4"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? -" + \
             "The answer should be a numeric number":
         answer = "5"
