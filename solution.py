@@ -5,6 +5,8 @@
 def welcome_assignment_answers(question):
     # The student doesn't have to follow the skeleton for this assignment.
     #    #Another way to implement is using a "case" statements similar to C.
+
+    global answer
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -20,10 +22,10 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? -" + \
             " The answer should be a numeric number":
-        answer = "Application layer"
+        answer = " 4 "
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? -" + \
             "The answer should be a numeric number":
-        answer = "Transport Layer"
+        answer = " 3 "
     return answer
 
 
@@ -34,4 +36,3 @@ if __name__ == "__main__":
     # use this space to debug and verify that the program works
     debug_question = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question))
-
